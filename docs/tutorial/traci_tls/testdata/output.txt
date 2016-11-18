@@ -1,0 +1,1966 @@
+Vehicles Generated:       0    1    2
+0  407  356  425
+1  384  429  408
+2  417  401  373
+Could not connect to TraCI server at localhost:43637 [Errno 111] Connection refused
+ Retrying in 1 seconds
+Could not connect to TraCI server at localhost:43637 [Errno 111] Connection refused
+ Retrying in 2 seconds
+Loading configuration... done.
+no. of nodes:  10
+top:  (0, 0)
+top:  (1, 1)
+top:  (1, 2)
+top:  (1, 3)
+top:  (2, 4)
+top:  (2, 5)
+top:  (2, 6)
+top:  (3, 7)
+top:  (3, 8)
+top:  (3, 9)
+top:  (0, 1)
+top:  (1, 2)
+top:  (1, 3)
+top:  (1, 4)
+top:  (2, 5)
+top:  (2, 6)
+top:  (2, 7)
+top:  (3, 8)
+top:  (3, 9)
+top:  (0, 2)
+top:  (1, 3)
+top:  (1, 4)
+top:  (1, 5)
+top:  (2, 6)
+top:  (2, 7)
+top:  (2, 8)
+top:  (3, 9)
+top:  (0, 3)
+top:  (1, 4)
+top:  (1, 5)
+top:  (1, 6)
+top:  (2, 7)
+top:  (2, 8)
+top:  (2, 9)
+top:  (0, 4)
+top:  (1, 5)
+top:  (1, 6)
+top:  (1, 7)
+top:  (2, 8)
+top:  (2, 9)
+top:  (0, 5)
+top:  (1, 6)
+top:  (1, 7)
+top:  (1, 8)
+top:  (2, 9)
+top:  (0, 6)
+top:  (1, 7)
+top:  (1, 8)
+top:  (1, 9)
+top:  (0, 7)
+top:  (1, 8)
+top:  (1, 9)
+top:  (0, 8)
+top:  (1, 9)
+top:  (0, 9)
+num edgees = %i 78
+edge list ['1to2', '1to3', '1to4', '2to3', '2to4', '2to5', '3to4', '3to5', '3to6', '4to5', '4to6', '4to7', '5to6', '5to7', '5to8', '6to7', '6to8', '6to9', '7to10', '7to8', '7to9', '8to10', '8to9', '9to10', ':2_0', ':2_1', ':2_2', ':3_0', ':3_1', ':3_2', ':3_3', ':3_4', ':3_5', ':4_0', ':4_1', ':4_2', ':4_3', ':4_4', ':4_5', ':4_6', ':4_7', ':4_8', ':5_0', ':5_1', ':5_2', ':5_3', ':5_4', ':5_5', ':5_6', ':5_7', ':5_8', ':6_0', ':6_1', ':6_2', ':6_3', ':6_4', ':6_5', ':6_6', ':6_7', ':6_8', ':7_0', ':7_1', ':7_2', ':7_3', ':7_4', ':7_5', ':7_6', ':7_7', ':7_8', ':8_0', ':8_1', ':8_2', ':8_3', ':8_4', ':8_5', ':9_0', ':9_1', ':9_2']
+running step no. %i 0
+running step no. %i 1
+running step no. %i 2
+running step no. %i 3
+running step no. %i 4
+running step no. %i 5
+running step no. %i 6
+running step no. %i 7
+running step no. %i 8
+running step no. %i 9
+running step no. %i 10
+running step no. %i 11
+running step no. %i 12
+running step no. %i 13
+running step no. %i 14
+running step no. %i 15
+vid_1
+vid_1 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_1 new route: 1to4 4to5 5to8
+running step no. %i 16
+vid_1
+vid_1 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_1 new route: 1to4 4to5 5to8
+vid_0
+vid_0 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 17
+vid_2
+vid_2 old route: 3to6 6to9 9to10
+ find Action --> source  5  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ []
+(src = 5,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['3to6', '6to7', '7to10']
+vid_2 new route: 3to6 6to7 7to10
+running step no. %i 18
+running step no. %i 19
+running step no. %i 20
+running step no. %i 21
+vid_5
+vid_5 old route: 1to4 4to7 7to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_5 new route: 1to4 4to6 6to9
+vid_4
+vid_4 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 22
+vid_5
+vid_5 old route: 1to4 4to6 6to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_5 new route: 1to4 4to6 6to9
+vid_4
+vid_4 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_3
+vid_3 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 23
+vid_3
+vid_3 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 24
+running step no. %i 25
+running step no. %i 26
+vid_6
+vid_6 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_6 new route: 1to4 4to5 5to8
+running step no. %i 27
+vid_6
+vid_6 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_6 new route: 1to4 4to5 5to8
+vid_7
+vid_7 old route: 2to5 5to8 8to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_7 new route: 2to5 5to6 6to9
+vid_9
+vid_9 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 28
+running step no. %i 29
+running step no. %i 30
+vid_0
+vid_0 old route: 2to5 5to8
+running step no. %i 31
+vid_8
+vid_8 old route: 1to4 4to7 7to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_8 new route: 1to4 4to6 6to9
+vid_11
+vid_11 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_1
+vid_1 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_0
+vid_0 old route: 2to5 5to8
+vid_2
+vid_2 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 32
+vid_8
+vid_8 old route: 1to4 4to6 6to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_8 new route: 1to4 4to6 6to9
+vid_11
+vid_11 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 33
+vid_10
+vid_10 old route: 3to6 6to9 9to10
+ find Action --> source  5  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ []
+(src = 5,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['3to6', '6to7', '7to10']
+vid_10 new route: 3to6 6to7 7to10
+running step no. %i 34
+vid_4
+vid_4 old route: 2to5 5to8
+running step no. %i 35
+running step no. %i 36
+vid_13
+vid_13 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_13 new route: 1to4 4to5 5to8
+vid_16
+vid_16 old route: 2to5 5to8 8to10
+ find Action --> source  4  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[5, -3]]
+(src = 4,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['2to5', '5to7', '7to10']
+vid_16 new route: 2to5 5to7 7to10
+running step no. %i 37
+vid_13
+vid_13 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_13 new route: 1to4 4to5 5to8
+vid_16
+vid_16 old route: 2to5 5to7 7to10
+ find Action --> source  4  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[5, -3]]
+(src = 4,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['2to5', '5to7', '7to10']
+vid_16 new route: 2to5 5to7 7to10
+vid_5
+vid_5 old route: 1to4 4to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 38
+vid_12
+vid_12 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_3
+vid_3 old route: 3to6 6to8
+running step no. %i 39
+vid_6
+vid_6 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 40
+vid_6
+vid_6 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 41
+vid_21
+vid_21 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_21 new route: 1to4 4to5 5to8
+vid_7
+vid_7 old route: 2to5 5to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_9
+vid_9 old route: 3to6 6to8
+running step no. %i 42
+vid_17
+vid_17 old route: 2to5 5to8 8to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_17 new route: 2to5 5to6 6to9
+vid_7
+vid_7 old route: 2to5 5to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 43
+vid_17
+vid_17 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_17 new route: 2to5 5to6 6to9
+vid_14
+vid_14 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 44
+vid_14
+vid_14 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_8
+vid_8 old route: 1to4 4to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 45
+vid_8
+vid_8 old route: 1to4 4to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_1
+vid_1 old route: 1to4 4to5 5to8
+vid_2
+vid_2 old route: 3to6 6to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 46
+vid_2
+vid_2 old route: 3to6 6to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 47
+vid_22
+vid_22 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_22 new route: 1to4 4to5 5to8
+vid_10
+vid_10 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 48
+vid_22
+vid_22 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_22 new route: 1to4 4to5 5to8
+vid_10
+vid_10 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 49
+vid_24
+vid_24 old route: 2to5 5to8 8to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_24 new route: 2to5 5to6 6to9
+vid_15
+vid_15 old route: 3to6 6to9 9to10
+ find Action --> source  5  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ []
+(src = 5,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['3to6', '6to7', '7to10']
+vid_15 new route: 3to6 6to7 7to10
+running step no. %i 50
+vid_24
+vid_24 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_24 new route: 2to5 5to6 6to9
+vid_15
+vid_15 old route: 3to6 6to7 7to10
+ find Action --> source  5  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ []
+(src = 5,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['3to6', '6to7', '7to10']
+vid_15 new route: 3to6 6to7 7to10
+running step no. %i 51
+vid_24
+vid_24 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_24 new route: 2to5 5to6 6to9
+vid_5
+vid_5 old route: 1to4 4to6 6to9
+running step no. %i 52
+vid_23
+vid_23 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_23 new route: 1to4 4to5 5to8
+vid_24
+vid_24 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_24 new route: 2to5 5to6 6to9
+vid_13
+vid_13 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_5
+vid_5 old route: 1to4 4to6 6to9
+running step no. %i 53
+vid_23
+vid_23 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_23 new route: 1to4 4to5 5to8
+running step no. %i 54
+vid_18
+vid_18 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 55
+vid_18
+vid_18 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_21
+vid_21 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_6
+vid_6 old route: 1to4 4to5 5to8
+running step no. %i 56
+vid_18
+vid_18 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 57
+vid_26
+vid_26 old route: 1to4 4to7 7to10
+ find Action --> source  3  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[4, -3], [5, -3]]
+(src = 3,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['1to4', '4to7', '7to10']
+vid_26 new route: 1to4 4to7 7to10
+vid_18
+vid_18 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_8
+vid_8 old route: 1to4 4to6 6to9
+running step no. %i 58
+vid_26
+vid_26 old route: 1to4 4to7 7to10
+ find Action --> source  3  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[4, -3], [5, -3]]
+(src = 3,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['1to4', '4to7', '7to10']
+vid_26 new route: 1to4 4to7 7to10
+vid_8
+vid_8 old route: 1to4 4to6 6to9
+running step no. %i 59
+vid_19
+vid_19 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 60
+vid_19
+vid_19 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_11
+vid_11 old route: 2to5 5to8
+running step no. %i 61
+vid_19
+vid_19 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_11
+vid_11 old route: 2to5 5to8
+vid_10
+vid_10 old route: 3to6 6to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 62
+vid_28
+vid_28 old route: 1to4 4to7 7to10
+ find Action --> source  3  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[4, -3], [5, -3]]
+(src = 3,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['1to4', '4to7', '7to10']
+vid_28 new route: 1to4 4to7 7to10
+running step no. %i 63
+vid_22
+vid_22 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 64
+vid_20
+vid_20 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 65
+vid_20
+vid_20 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_12
+vid_12 old route: 3to6 6to9
+running step no. %i 66
+vid_13
+vid_13 old route: 1to4 4to5 5to8
+vid_12
+vid_12 old route: 3to6 6to9
+running step no. %i 67
+vid_29
+vid_29 old route: 1to4 4to7 7to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_29 new route: 1to4 4to6 6to9
+vid_13
+vid_13 old route: 1to4 4to5 5to8
+running step no. %i 68
+vid_23
+vid_23 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_14
+vid_14 old route: 3to6 6to9
+running step no. %i 69
+vid_30
+vid_30 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_21
+vid_21 old route: 1to4 4to5 5to8
+vid_14
+vid_14 old route: 3to6 6to9
+running step no. %i 70
+running step no. %i 71
+vid_26
+vid_26 old route: 1to4 4to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+vid_15
+vid_15 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 72
+vid_33
+vid_33 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_33 new route: 1to4 4to5 5to8
+running step no. %i 73
+vid_33
+vid_33 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_33 new route: 1to4 4to5 5to8
+vid_18
+vid_18 old route: 3to6 6to9
+running step no. %i 74
+vid_32
+vid_32 old route: 3to6 6to9 9to10
+ find Action --> source  5  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ []
+(src = 5,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['3to6', '6to7', '7to10']
+vid_32 new route: 3to6 6to7 7to10
+vid_18
+vid_18 old route: 3to6 6to9
+running step no. %i 75
+running step no. %i 76
+vid_25
+vid_25 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_28
+vid_28 old route: 1to4 4to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+vid_19
+vid_19 old route: 3to6 6to9
+running step no. %i 77
+vid_34
+vid_34 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_34 new route: 1to4 4to5 5to8
+vid_25
+vid_25 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_28
+vid_28 old route: 1to4 4to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+vid_22
+vid_22 old route: 1to4 4to5 5to8
+running step no. %i 78
+vid_34
+vid_34 old route: 1to4 4to5 5to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_34 new route: 1to4 4to5 5to8
+vid_25
+vid_25 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_22
+vid_22 old route: 1to4 4to5 5to8
+running step no. %i 79
+vid_25
+vid_25 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_20
+vid_20 old route: 3to6 6to8
+running step no. %i 80
+vid_25
+vid_25 old route: 2to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_36
+vid_36 old route: 3to6 6to8
+ find Action --> source  5  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[6, -2]]
+(src = 5,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+running step no. %i 81
+vid_29
+vid_29 old route: 1to4 4to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 82
+vid_27
+vid_27 old route: 2to5 5to8 8to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_27 new route: 2to5 5to6 6to9
+vid_29
+vid_29 old route: 1to4 4to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_23
+vid_23 old route: 1to4 4to5 5to8
+running step no. %i 83
+vid_35
+vid_35 old route: 1to4 4to7 7to10
+ find Action --> source  3  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[4, -3], [5, -3]]
+(src = 3,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['1to4', '4to7', '7to10']
+vid_35 new route: 1to4 4to7 7to10
+vid_27
+vid_27 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_27 new route: 2to5 5to6 6to9
+vid_30
+vid_30 old route: 3to6 6to9
+running step no. %i 84
+vid_27
+vid_27 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_27 new route: 2to5 5to6 6to9
+running step no. %i 85
+vid_38
+vid_38 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_26
+vid_26 old route: 1to4 4to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 86
+vid_31
+vid_31 old route: 2to5 5to8 8to10
+ find Action --> source  4  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[5, -3]]
+(src = 4,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['2to5', '5to7', '7to10']
+vid_31 new route: 2to5 5to7 7to10
+vid_38
+vid_38 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_26
+vid_26 old route: 1to4 4to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 87
+vid_39
+vid_39 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_39 new route: 1to4 4to5 5to8
+vid_31
+vid_31 old route: 2to5 5to7 7to10
+ find Action --> source  4  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[5, -3]]
+(src = 4,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['2to5', '5to7', '7to10']
+vid_31 new route: 2to5 5to7 7to10
+vid_32
+vid_32 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 88
+vid_31
+vid_31 old route: 2to5 5to7 7to10
+ find Action --> source  4  dest  9
+mindistance,minneigbour  1 6
+list_less: 
+ [[6, -2]]
+list_greater: 
+ [[5, -3]]
+(src = 4,destination = 9 ,action = 6): 
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+nexthop:  7  dest:  10 False
+new route id:  r7to10
+new route edges:  ['2to5', '5to7', '7to10']
+vid_31 new route: 2to5 5to7 7to10
+vid_33
+vid_33 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_16
+vid_16 old route: 2to5 5to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+vid_32
+vid_32 old route: 3to6 6to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 89
+vid_16
+vid_16 old route: 2to5 5to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 90
+vid_37
+vid_37 old route: 2to5 5to8 8to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_37 new route: 2to5 5to6 6to9
+vid_43
+vid_43 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_17
+vid_17 old route: 2to5 5to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_28
+vid_28 old route: 1to4 4to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 91
+vid_37
+vid_37 old route: 2to5 5to6 6to9
+ find Action --> source  4  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ []
+(src = 4,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['2to5', '5to6', '6to9']
+vid_37 new route: 2to5 5to6 6to9
+vid_43
+vid_43 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_7
+vid_7 old route: 2to5 5to6 6to9
+running step no. %i 92
+vid_7
+vid_7 old route: 2to5 5to6 6to9
+running step no. %i 93
+vid_44
+vid_44 old route: 1to4 4to7 7to8
+ find Action --> source  3  dest  7
+mindistance,minneigbour  1 4
+list_less: 
+ [[4, -2]]
+list_greater: 
+ []
+(src = 3,destination = 7 ,action = 4): 
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+nexthop:  5  dest:  8 False
+new route id:  r5to8
+new route edges:  ['1to4', '4to5', '5to8']
+vid_44 new route: 1to4 4to5 5to8
+vid_34
+vid_34 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_36
+vid_36 old route: 3to6 6to8
+running step no. %i 94
+vid_46
+vid_46 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_34
+vid_34 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_24
+vid_24 old route: 2to5 5to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_36
+vid_36 old route: 3to6 6to8
+vid_29
+vid_29 old route: 1to4 4to6 6to9
+running step no. %i 95
+vid_46
+vid_46 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_29
+vid_29 old route: 1to4 4to6 6to9
+running step no. %i 96
+vid_25
+vid_25 old route: 2to5 5to8
+running step no. %i 97
+vid_45
+vid_45 old route: 1to4 4to7 7to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_45 new route: 1to4 4to6 6to9
+vid_35
+vid_35 old route: 1to4 4to7 7to10
+ find Action --> source  6  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ [[7, -2], [8, -2]]
+(src = 6,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+vid_25
+vid_25 old route: 2to5 5to8
+running step no. %i 98
+vid_38
+vid_38 old route: 3to6 6to9
+running step no. %i 99
+vid_15
+vid_15 old route: 3to6 6to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 100
+vid_48
+vid_48 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+running step no. %i 101
+vid_48
+vid_48 old route: 3to6 6to9
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+(src = 5,destination = 8 ,action = 8): 
+ find Action --> source  8  dest  8
+vid_39
+vid_39 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_16
+vid_16 old route: 2to5 5to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9
+running step no. %i 102
+vid_47
+vid_47 old route: 1to4 4to7 7to9
+ find Action --> source  3  dest  8
+mindistance,minneigbour  1 5
+list_less: 
+ [[5, -2]]
+list_greater: 
+ [[4, -3]]
+(src = 3,destination = 8 ,action = 5): 
+ find Action --> source  5  dest  8
+mindistance,minneigbour  0 8
+list_less: 
+ [[8, -1]]
+list_greater: 
+ [[6, -2], [7, -2]]
+nexthop:  6  dest:  9 False
+new route id:  r6to9
+new route edges:  ['1to4', '4to6', '6to9']
+vid_47 new route: 1to4 4to6 6to9
+vid_39
+vid_39 old route: 1to4 4to5 5to8
+ find Action --> source  4  dest  7
+mindistance,minneigbour  0 7
+list_less: 
+ [[7, -1]]
+list_greater: 
+ [[5, -2], [6, -2]]
+(src = 4,destination = 7 ,action = 7): 
+ find Action --> source  7  dest  7
+vid_33
+vid_33 old route: 1to4 4to5 5to8
+vid_16
+vid_16 old route: 2to5 5to7 7to10
+ find Action --> source  8  dest  9
+mindistance,minneigbour  0 9
+list_less: 
+ [[9, -1]]
+list_greater: 
+ []
+(src = 8,destination = 9 ,action = 9): 
+ find Action --> source  9  dest  9

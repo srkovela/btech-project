@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thursday 17 November 2016 07:33:56 PM IST by SUMO gui Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="sim.net.xml"/>
+        <route-files value="sim.rou.xml"/>
+        <additional-files value="sim.det.xml"/>
+    </input>
+
+    <output>
+        <save-state.prefix value="state"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="sim.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/det_e1_file.xsd">
+</detector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Saturday 19 November 2016 02:46:00 AM IST by SUMO gui Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="testdata/sim.net.xml"/>
+        <route-files value="testdata/sim.rou.xml"/>
+        <additional-files value="testdata/sim.det.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="simtripinfo.xml"/>
+        <save-state.prefix value="testdata/state"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51207"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="testdata/sim.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos>
+    <tripinfo id="vid_0" depart="0.00" departLane="2to5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="33.00" arrivalLane="5to8_0" arrivalPos="100.00" arrivalSpeed="9.61" duration="33.00" routeLength="194.90" waitSteps="0" rerouteNo="0" devices="tripinfo_vid_0" vType="vtype1" vaporized=""/>
+    <tripinfo id="vid_4" depart="5.00" departLane="2to5_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="36.00" arrivalLane="5to8_0" arrivalPos="100.00" arrivalSpeed="9.93" duration="31.00" routeLength="194.90" waitSteps="1" rerouteNo="0" devices="tripinfo_vid_4" vType="vtype1" vaporized=""/>
+</tripinfos>

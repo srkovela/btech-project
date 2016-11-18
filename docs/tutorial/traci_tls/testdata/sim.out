@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Saturday 19 November 2016 02:46:00 AM IST by SUMO gui Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/sumo-gui.exeConfiguration.xsd">
+
+    <input>
+        <net-file value="testdata/sim.net.xml"/>
+        <route-files value="testdata/sim.rou.xml"/>
+        <additional-files value="testdata/sim.det.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="simtripinfo.xml"/>
+        <save-state.prefix value="testdata/state"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51207"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="testdata/sim.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/det_e1_file.xsd">
+   <interval begin="0.00" end="30.00" id="loop0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop2" nVehContrib="3" flow="360.00" occupancy="5.33" speed="9.41" length="5.00" nVehEntered="3"/>
+   <interval begin="0.00" end="30.00" id="loop3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop4" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop5" nVehContrib="3" flow="360.00" occupancy="5.23" speed="9.56" length="5.00" nVehEntered="3"/>
+   <interval begin="0.00" end="30.00" id="loop6" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop7" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop8" nVehContrib="3" flow="360.00" occupancy="5.20" speed="9.62" length="5.00" nVehEntered="3"/>
+   <interval begin="0.00" end="30.00" id="loop9" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop10" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop11" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop12" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop13" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop14" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop15" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop16" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop17" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop18" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop19" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop20" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop21" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop22" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="0.00" end="30.00" id="loop23" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop0" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop1" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop2" nVehContrib="1" flow="514.29" occupancy="8.02" speed="9.29" length="5.00" nVehEntered="1"/>
+   <interval begin="30.00" end="37.00" id="loop3" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop4" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop5" nVehContrib="1" flow="514.29" occupancy="11.52" speed="9.29" length="5.00" nVehEntered="1"/>
+   <interval begin="30.00" end="37.00" id="loop6" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop7" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop8" nVehContrib="1" flow="514.29" occupancy="7.66" speed="9.33" length="5.00" nVehEntered="1"/>
+   <interval begin="30.00" end="37.00" id="loop9" nVehContrib="1" flow="514.29" occupancy="7.27" speed="9.83" length="5.00" nVehEntered="1"/>
+   <interval begin="30.00" end="37.00" id="loop10" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop11" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop12" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop13" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop14" nVehContrib="2" flow="1028.57" occupancy="14.61" speed="9.78" length="5.00" nVehEntered="2"/>
+   <interval begin="30.00" end="37.00" id="loop15" nVehContrib="1" flow="514.29" occupancy="7.43" speed="9.62" length="5.00" nVehEntered="1"/>
+   <interval begin="30.00" end="37.00" id="loop16" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop17" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop18" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop19" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop20" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop21" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop22" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+   <interval begin="30.00" end="37.00" id="loop23" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>

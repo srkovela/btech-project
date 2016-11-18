@@ -1,0 +1,27 @@
+<additional>
+<e1Detector id="loop0" lane="1to2_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop1" lane="1to3_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop2" lane="1to4_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop3" lane="2to3_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop4" lane="2to4_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop5" lane="2to5_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop6" lane="3to4_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop7" lane="3to5_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop8" lane="3to6_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop9" lane="4to5_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop10" lane="4to6_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop11" lane="4to7_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop12" lane="5to6_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop13" lane="5to7_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop14" lane="5to8_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop15" lane="6to7_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop16" lane="6to8_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop17" lane="6to9_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop18" lane="7to8_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop19" lane="7to9_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop20" lane="7to10_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop21" lane="8to9_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop22" lane="8to10_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+<e1Detector id="loop23" lane="9to10_0" pos="75" freq="30" file="sim.out" friendlyPos="x"/>
+</additional>
+
