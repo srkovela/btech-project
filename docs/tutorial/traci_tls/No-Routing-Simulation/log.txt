@@ -1,0 +1,6 @@
+Vehicles Generated:        0     1     2
+0  1120  1064  1132
+1  1078  1109  1137
+2  1162  1114  1084
+Could not connect to TraCI server at localhost:42191 [Errno 111] Connection refused
+ Retrying in 1 seconds

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Jan 23 00:52:43 2017 by SUMO netconvert Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="bangalore.net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="bangalore"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<edges version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/edges_file.xsd">
+    <edge id="-133235120#0" from="1466350486" to="1466350488" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235120#1" from="1564747827" to="1466350486" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235120#2" from="1466350487" to="1564747827" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235120#3" from="1466350485" to="1466350487" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235173#0" from="1838656439" to="249775749" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235173#1" from="303959801" to="1838656439" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235173#2" from="1466369202" to="303959801" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235641#0" from="1466400287" to="249775752" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235641#1" from="249070836" to="1466400287" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235641#2" from="248810129" to="249070836" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235641#3" from="1466400285" to="248810129" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133235641#4" from="1466400299" to="1466400285" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337048" from="249776012" to="249775975" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337050" from="248810130" to="1467750612" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337051#0" from="1467750643" to="1467750633" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337051#1" from="1467750622" to="1467750643" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="757.24,936.92 787.01,938.69 835.36,935.19 842.70,929.34"/>
+    <edge id="-133337051#2" from="1467750616" to="1467750622" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337051#3" from="1467750625" to="1467750616" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337051#4" from="1467750645" to="1467750625" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="412.59,961.52 525.53,935.78 545.54,931.86 567.32,931.11"/>
+    <edge id="-133337051#5" from="3496616936" to="1467750645" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337053#0" from="1467750632" to="1467750630" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337053#1" from="1467750646" to="1467750632" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337474" from="1467757963" to="1467757957" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337475" from="1467757960" to="1467757948" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337478#0" from="1467757952" to="1467757965" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133337478#1" from="248777037" to="1467757952" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="769.12,854.89 806.48,848.83 848.53,840.23"/>
+    <edge id="-133337478#2" from="1467757966" to="248777037" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="682.36,850.45 730.65,851.38 769.12,854.89"/>
+    <edge id="-133337478#3" from="1467757951" to="1467757966" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="523.81,857.35 566.85,846.96 682.36,850.45"/>
+    <edge id="-133337692#0" from="248810166" to="248810165" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="653.68,700.72 672.81,767.47 684.23,809.73"/>
+    <edge id="-133337692#1" from="1467794481" to="248810166" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#2" from="1467794499" to="1467794481" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#3" from="248810168" to="1467794499" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#4" from="1467767183" to="248810168" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="588.18,539.79 601.31,579.64 620.14,574.08"/>
+    <edge id="-133337692#5" from="1467794504" to="1467767183" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#6" from="1467794478" to="1467794504" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#7" from="1467794480" to="1467794478" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133337692#8" from="1467794498" to="1467794480" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-133338005#0" from="1467767988" to="1467767984" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133338005#1" from="cluster_1467767990_1467794470" to="1467767988" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="706.07,589.41 727.38,687.83"/>
+    <edge id="-133339458#0" from="1467794503" to="1467794514" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339458#1" from="1467794486" to="1467794503" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339459#0" from="1467794473" to="1467794455" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339459#1" from="1467794467" to="1467794473" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339460#0" from="1467794503" to="1467794481" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339460#1" from="1467794511" to="1467794503" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="534.40,668.56 542.49,666.86 563.29,662.50 602.06,652.35"/>
+    <edge id="-133339461#0" from="1467794477" to="1467794466" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339461#1" from="1467794506" to="1467794477" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339462#0" from="1467794515" to="1467794495" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339462#1" from="1467767986" to="1467794515" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339462#2" from="cluster_1467767990_1467794470" to="1467767986" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="703.00,579.94 734.73,569.31"/>
+    <edge id="-133339462#4" from="1467767188" to="cluster_1467767990_1467794470" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="660.83,600.03 706.07,589.41"/>
+    <edge id="-133339462#5" from="1467794499" to="1467767188" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339462#6" from="1467794486" to="1467794499" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339462#7" from="1467794520" to="1467794486" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="533.69,637.04 571.07,628.16 594.07,621.92"/>
+    <edge id="-133339463" from="1467794507" to="1467794518" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339464" from="1467794472" to="248810168" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339465#0" from="1467794467" to="1467794477" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339465#1" from="1467794464" to="1467794467" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339466#0" from="1467794493" to="1467794458" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339466#1" from="1467794515" to="1467794493" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="778.60,556.67 796.14,640.94 804.46,670.53"/>
+    <edge id="-133339468#0" from="2421937751" to="1467794457" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339468#1" from="1467794519" to="2421937751" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339470#0" from="249776852" to="2421937759" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="788.77,403.98 853.04,388.86 902.74,378.05"/>
+    <edge id="-133339470#1" from="1467767991" to="249776852" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339470#2" from="1467794478" to="1467767991" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339470#3" from="1467794506" to="1467794478" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339470#4" from="1467794473" to="1467794506" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339471#0" from="1467794459" to="1467794465" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339471#1" from="1467794504" to="1467794459" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339472" from="cluster_1467794474_1467794479" to="1467794517" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="809.74,523.78 699.60,559.14"/>
+    <edge id="-133339473#0" from="249776418" to="2421937738" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339473#1" from="1467767989" to="249776418" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="651.56,413.89 696.08,397.85 777.96,377.19"/>
+    <edge id="-133339473#2" from="1467794480" to="1467767989" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339474#0" from="2421937790" to="1467794512" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="599.37,401.86 606.21,401.76 682.99,382.67 770.80,359.89"/>
+    <edge id="-133339474#1" from="1467794466" to="2421937790" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="526.23,415.26 594.27,401.94 599.37,401.86"/>
+    <edge id="-133339474#2" from="1467794461" to="1467794466" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-133339476" from="cluster_1467794474_1467794479" to="1467794501" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="805.60,505.86 690.74,539.22"/>
+    <edge id="-133599364" from="1470553341" to="1470553314" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1037.19,901.16 1101.75,895.69 1172.35,891.34"/>
+    <edge id="-134795976#0" from="1467794517" to="cluster_1467767990_1467794470" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="699.60,559.14 703.00,579.94"/>
+    <edge id="-134795976#1" from="1467794472" to="1467794517" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-134795976#2" from="1467794501" to="1467794472" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-134795976#3" from="249071026" to="1467794501" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-134795976#4" from="1467794459" to="249071026" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-134795976#5" from="1467767991" to="1467794459" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-134795976#6" from="1467767989" to="1467767991" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031164#0" from="1836940037" to="249775831" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031164#1" from="249775928" to="1836940037" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031164#2" from="249775795" to="249775928" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#0" from="1466369206" to="1466369202" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#1" from="249070837" to="1466369206" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#2" from="248810128" to="249070837" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#3" from="1466369200" to="248810128" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#4" from="1466369213" to="1466369200" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-143031545#5" from="3148782128" to="1466369213" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="639.75,993.17 631.12,998.57 628.22,1037.63 622.44,1072.71 670.56,1073.24"/>
+    <edge id="-143031545#6" from="1467750640" to="3148782128" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-172845846" from="1467767986" to="248810256" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851197" from="1836983154" to="1836983131" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="12.38,1141.04 144.88,1147.94 206.14,1144.32 299.51,1106.63 439.49,1046.52"/>
+    <edge id="-172851199#0" from="1467794455" to="1836983067" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851199#1" from="1467767183" to="1467794455" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851199#2" from="249071026" to="1467767183" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="682.75,507.25 619.90,528.13 588.18,539.79"/>
+    <edge id="-172851199#3" from="248810329" to="249071026" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851201#0" from="1836940042" to="1836983131" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="510.53,1155.70 482.52,1088.18 458.19,1050.29 439.49,1046.52"/>
+    <edge id="-172851201#1" from="249070974" to="1836940042" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="504.53,1339.72 505.04,1296.81 506.84,1249.67 509.88,1203.69 510.53,1155.70"/>
+    <edge id="-172851207" from="248838858" to="249070838" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#0" from="248810329" to="249071028" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#1" from="cluster_1467794474_1467794479" to="248810329" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="805.60,505.86 792.82,475.79"/>
+    <edge id="-172851208#10" from="1467750643" to="1467750638" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#11" from="248810130" to="1467750643" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#12" from="248810129" to="248810130" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#13" from="248810128" to="248810129" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#14" from="1466350486" to="248810128" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#15" from="248810127" to="1466350486" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#16" from="248810124" to="248810127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="827.88,1351.74 828.82,1307.13 830.40,1260.37 829.75,1216.53 829.63,1169.12"/>
+    <edge id="-172851208#3" from="1467794495" to="cluster_1467794474_1467794479" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="814.96,542.61 811.20,526.73 809.74,523.78"/>
+    <edge id="-172851208#4" from="248810135" to="1467794495" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#5" from="1467757949" to="248810135" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#6" from="1467757960" to="1467757949" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#7" from="1467757957" to="1467757960" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#8" from="1467757952" to="1467757957" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851208#9" from="1467750638" to="1467757952" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-172851209" from="1467767188" to="1467767186" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039111" from="1838656433" to="1838656434" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039113#0" from="1838656441" to="1838656442" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039113#1" from="1838656440" to="1838656441" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039113#2" from="3148770476" to="1838656440" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1423.64,1127.37 1358.58,1127.72 1303.03,1127.58"/>
+    <edge id="-173039113#3" from="3148770477" to="3148770476" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039114#0" from="1838656436" to="249776627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039114#1" from="1838656437" to="1838656436" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039115#0" from="303959798" to="249776635" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039115#1" from="1838656432" to="303959798" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039117#0" from="1838656434" to="1838656436" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039117#1" from="1838656432" to="1838656434" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039117#2" from="249776659" to="1838656432" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#0" from="1470553314" to="249775953" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#1" from="249775831" to="1470553314" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#2" from="2421938355" to="249775831" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#3" from="249775829" to="2421938355" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1214.96,1041.79 1208.76,1026.16 1199.88,1010.25 1190.15,967.31"/>
+    <edge id="-173039118#4" from="1838656439" to="249775829" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#5" from="1838656441" to="1838656439" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-173039118#6" from="1838656443" to="1838656441" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-212982960" from="249775705" to="2227583873" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-212982968" from="2227583836" to="2227583850" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-212982997#0" from="248809813" to="2227583876" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1300.07,1280.48 1374.29,1328.35 1398.96,1344.52 1428.24,1361.23 1518.01,1364.01"/>
+    <edge id="-212982997#1" from="2227583850" to="248809813" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1195.03,1207.09 1210.85,1223.39 1235.52,1242.82 1268.29,1260.21 1300.07,1280.48"/>
+    <edge id="-212982997#2" from="2227583842" to="2227583850" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1120.30,1195.91 1135.48,1203.95 1146.62,1189.53 1167.52,1200.73 1195.03,1207.09"/>
+    <edge id="-23058211#0" from="2421937732" to="1836983047" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058211#1" from="248809057" to="2421937732" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#0" from="248810158" to="503975983" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="667.23,1162.60 664.94,1209.80 661.86,1255.90 660.06,1302.38 658.81,1346.15 658.38,1392.13 665.66,1432.82 745.97,1511.05"/>
+    <edge id="-23058363#1" from="1466350487" to="248810158" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#10" from="1467794507" to="248810165" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="691.59,760.45 689.30,779.15 684.23,809.73"/>
+    <edge id="-23058363#11" from="1467767186" to="1467794507" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="689.14,692.41 696.97,737.63 691.59,760.45"/>
+    <edge id="-23058363#2" from="1466369213" to="1466350487" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#3" from="1466400299" to="1466369213" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#4" from="1467750640" to="1466400299" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#5" from="1467750632" to="1467750640" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#6" from="1467750616" to="1467750632" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#7" from="1467750626" to="1467750616" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#8" from="1467757966" to="1467750626" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058363#9" from="248810165" to="1467757966" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#0" from="2421938221" to="1836983094" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#1" from="1467794514" to="2421938221" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="616.91,708.72 594.18,713.18 509.96,741.99 507.58,742.72"/>
+    <edge id="-23058373#2" from="248810166" to="1467794514" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="653.68,700.72 624.52,707.77 616.91,708.72"/>
+    <edge id="-23058373#3" from="1467767186" to="248810166" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#4" from="1467767988" to="1467767186" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#5" from="248810256" to="1467767988" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#6" from="1467794493" to="248810256" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#7" from="248810135" to="1467794493" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058373#8" from="248810257" to="248810135" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#0" from="1836983067" to="1836983081" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="465.19,578.77 459.48,583.25 444.17,591.51 402.69,617.24 321.70,659.00 316.63,672.05 317.67,691.30"/>
+    <edge id="-23058382#1" from="1467794464" to="1836983067" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#2" from="1467794461" to="1467794464" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#3" from="1467794519" to="1467794461" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#4" from="1836983047" to="1467794519" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#5" from="249080855" to="1836983047" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23058382#6" from="1741253817" to="249080855" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="444.60,234.06 454.70,288.48 417.09,296.92 420.54,319.04 422.79,330.15 426.42,351.53"/>
+    <edge id="-23074984#0" from="1836983094" to="1836983081" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23074984#1" from="2421938284" to="1836983094" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23074984#2" from="2421938331" to="2421938284" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="391.94,904.51 386.89,890.34 369.80,841.93 364.34,827.96"/>
+    <edge id="-23074984#3" from="1467750627" to="2421938331" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23074984#4" from="1467750645" to="1467750627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23074984#5" from="3148782118" to="1467750645" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23074984#6" from="1836983131" to="3148782118" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132899#0" from="304066669" to="249775483" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132899#1" from="248809811" to="304066669" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132899#2" from="1838656443" to="248809811" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132899#3" from="2227583836" to="1838656443" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132899#4" from="249775597" to="2227583836" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#0" from="304066669" to="503976015" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1422.62,1167.28 1422.45,1207.03 1422.31,1240.59 1422.13,1282.23 1422.07,1319.86"/>
+    <edge id="-23132905#1" from="3148770476" to="304066669" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#2" from="249775529" to="3148770476" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1424.83,1081.04 1423.72,1124.59 1423.64,1127.37"/>
+    <edge id="-23132905#3" from="249776627" to="249775529" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#4" from="1838656433" to="249776627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#5" from="303959798" to="1838656433" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#6" from="249776646" to="303959798" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#7" from="303959800" to="249776646" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132905#8" from="2421938227" to="303959800" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#0" from="2421938357" to="1836940037" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#1" from="249775801" to="2421938357" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#2" from="303959801" to="249775801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#3" from="1838656442" to="303959801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#4" from="249775597" to="1838656442" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#5" from="2227583842" to="249775597" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#6" from="249775640" to="2227583842" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132922#7" from="459485487" to="249775640" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1058.47,1609.01 1061.32,1492.37 1070.07,1371.85 1074.68,1273.73 1102.05,1230.34"/>
+    <edge id="-23132930#0" from="249775698" to="249775697" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132930#1" from="1466369206" to="249775698" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132930#2" from="1466400287" to="1466369206" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132930#3" from="249775795" to="1466400287" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132930#4" from="249775950" to="249775795" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132930#5" from="249775989" to="249775950" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132942#0" from="249775829" to="249775751" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132942#1" from="249775801" to="249775829" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132942#2" from="249775752" to="249775801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132953#0" from="1564748890" to="249775675" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-23132953#1" from="1466369202" to="1564748890" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-23132953#2" from="249775752" to="1466369202" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-23132957#0" from="514436333" to="249776645" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#1" from="249776646" to="514436333" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1427.29,867.30 1473.39,857.32 1489.33,853.52"/>
+    <edge id="-23132957#10" from="1467750626" to="1467750636" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="680.88,887.54 728.03,892.87 761.58,896.55"/>
+    <edge id="-23132957#11" from="2421938326" to="1467750626" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="552.27,897.66 593.27,889.14 680.88,887.54"/>
+    <edge id="-23132957#12" from="1467750627" to="2421938326" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="401.67,927.42 484.36,909.94 552.27,897.66"/>
+    <edge id="-23132957#13" from="1467750641" to="1467750627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="220.05,1012.12 261.36,987.23 318.08,961.89 401.67,927.42"/>
+    <edge id="-23132957#2" from="249776659" to="249776646" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#3" from="248809806" to="249776659" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#4" from="249775953" to="248809806" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1170.85,851.88 1183.59,864.71 1199.27,865.49 1242.92,854.71 1263.13,857.36 1290.32,868.10"/>
+    <edge id="-23132957#5" from="2421938297" to="249775953" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1057.39,856.67 1141.30,847.35 1170.85,851.88"/>
+    <edge id="-23132957#6" from="249775950" to="2421938297" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#7" from="249070834" to="249775950" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#8" from="1467750638" to="249070834" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132957#9" from="1467750636" to="1467750638" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132965#0" from="249775989" to="249775975" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132965#1" from="249070833" to="249775989" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132965#2" from="1467757949" to="249070833" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#0" from="2421938050" to="249776018" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#1" from="2421938009" to="2421938050" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#10" from="514435257" to="cluster_2421937765_514435254" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1071.72,345.91 1093.91,381.88"/>
+    <edge id="-23132974#11" from="249837943" to="514435257" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#2" from="514435248" to="2421938009" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#3" from="2421937986" to="514435248" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#4" from="2421937966" to="2421937986" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#5" from="2421937947" to="2421937966" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#6" from="249776187" to="2421937947" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#7" from="2421937838" to="249776187" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-23132974#8" from="cluster_2421937765_514435254" to="2421937838" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1103.62,395.45 1134.84,429.77"/>
+    <edge id="-23139605" from="249776456" to="514435340" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="951.14,308.83 954.04,250.81 944.29,88.15 945.80,49.57 960.15,30.92 977.91,23.36 1008.10,12.45 1034.43,2.99 1051.22,0.00 1204.44,1.35"/>
+    <edge id="-233870398#0" from="2421937996" to="2421937967" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#1" from="2421938020" to="2421937996" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#10" from="2421938219" to="2421938191" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#11" from="3683839896" to="2421938219" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#12" from="2421938297" to="3683839896" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#2" from="2421938047" to="2421938020" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#3" from="cluster_2421938068_2421938098" to="2421938047" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="989.18,578.16 984.90,557.98"/>
+    <edge id="-233870398#5" from="cluster_2421938110_2421938127" to="cluster_2421938068_2421938098" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="998.53,611.47 991.91,591.06"/>
+    <edge id="-233870398#7" from="2421938141" to="cluster_2421938110_2421938127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1009.63,656.52 1003.76,629.63"/>
+    <edge id="-233870398#8" from="2421938172" to="2421938141" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870398#9" from="2421938191" to="2421938172" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#0" from="2421937734" to="2421937707" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#1" from="2421937757" to="2421937734" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#10" from="514436333" to="2421938087" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1489.33,853.52 1480.93,813.17 1469.87,780.90 1461.73,757.18 1420.60,643.46 1409.24,590.97"/>
+    <edge id="-233870399#2" from="2421937807" to="2421937757" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#3" from="cluster_2421937850_2421937873" to="2421937807" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1375.75,436.92 1371.28,417.72"/>
+    <edge id="-233870399#5" from="2421937935" to="cluster_2421937850_2421937873" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1384.17,474.98 1377.94,444.69"/>
+    <edge id="-233870399#6" from="2421937983" to="2421937935" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#7" from="2421938015" to="2421937983" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#8" from="2421938043" to="2421938015" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870399#9" from="2421938087" to="2421938043" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870401#0" from="249080855" to="503260996" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="426.42,351.53 316.69,377.32 288.46,375.98 261.93,374.60 242.57,373.58 207.89,351.56 153.60,310.67 138.24,300.30 94.38,271.49 80.93,262.59 49.00,233.27 0.00,167.09 5.33,160.29"/>
+    <edge id="-233870401#1" from="503260974" to="249080855" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="743.35,293.23 670.40,309.18 505.01,337.20 426.42,351.53"/>
+    <edge id="-233870404" from="2421937700" to="2421937912" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870422" from="cluster_2421938068_2421938098" to="2421938121" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="991.91,591.06 873.90,619.38"/>
+    <edge id="-233870425" from="2421937996" to="2421938034" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870446" from="2421938087" to="2421938123" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870449" from="2421938134" to="2421938172" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870466" from="2421937983" to="249776711" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870468" from="248810257" to="cluster_2421938110_2421938127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="886.98,654.48 1003.76,629.63"/>
+    <edge id="-233870470" from="2421938015" to="2421938061" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870478" from="2421938043" to="2421938100" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870484#0" from="2421937737" to="514435257" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870484#1" from="2421937734" to="2421937737" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870492#0" from="2421937956" to="2421937986" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1249.03,488.45 1201.11,504.15 1200.56,507.43"/>
+    <edge id="-233870492#1" from="cluster_2421937850_2421937873" to="2421937956" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1377.94,444.69 1249.03,488.45"/>
+    <edge id="-233870493#0" from="2421938275" to="2421938276" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870493#1" from="303959800" to="2421938275" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870495#0" from="2421938362" to="249775752" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870495#1" from="249775928" to="2421938362" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870501#0" from="2421937894" to="2421937949" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="804.79,452.95 780.08,458.40 756.46,468.48 731.28,479.11"/>
+    <edge id="-233870501#1" from="2421937882" to="2421937894" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870503#0" from="2421938357" to="2421938355" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870503#1" from="2421938362" to="2421938357" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870512" from="2421938253" to="2421938284" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="503.80,784.36 452.63,800.53 364.34,827.96"/>
+    <edge id="-233870519" from="2421937717" to="2421937739" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="870.89,311.19 859.84,325.27 767.08,347.93"/>
+    <edge id="-233870525" from="2421938050" to="cluster_2421938110_2421938127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1240.32,568.95 1101.32,586.13 998.53,611.47"/>
+    <edge id="-233870537#0" from="2421937890" to="2421938140" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870537#1" from="2421937693" to="2421937890" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870542#0" from="2421937751" to="2421937790" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870542#1" from="2421937732" to="2421937751" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870551#0" from="2421937738" to="cluster_1467794489_248809073" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="894.48,348.96 885.91,312.56"/>
+    <edge id="-233870551#1" from="2421937759" to="2421937738" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870563#0" from="1836983059" to="2421937845" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1244.79,444.35 1210.20,436.35 1165.53,433.92"/>
+    <edge id="-233870563#1" from="2421937813" to="1836983059" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1292.21,417.90 1292.65,442.43 1244.79,444.35"/>
+    <edge id="-233870565#0" from="2421937916" to="2421937947" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870565#1" from="cluster_2421937850_2421937873" to="2421937916" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1375.75,436.92 1311.65,448.47 1246.66,466.38"/>
+    <edge id="-233870567" from="514435248" to="cluster_2421938068_2421938098" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1211.62,519.47 1157.68,535.14 1085.14,552.57 989.18,578.16"/>
+    <edge id="-233870588#0" from="2421938047" to="2421938106" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870588#1" from="2421938003" to="2421938047" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1127.43,518.39 1082.46,529.49 984.90,557.98"/>
+    <edge id="-233870591#0" from="2421937763" to="cluster_2421937765_514435254" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1152.84,382.20 1093.91,381.88"/>
+    <edge id="-233870591#1" from="2421937761" to="2421937763" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870591#2" from="2421937757" to="2421937761" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870597#0" from="2421938235" to="3683839896" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1282.49,764.52 1212.03,770.75 1045.70,793.55"/>
+    <edge id="-233870597#1" from="2421938232" to="2421938235" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870597#2" from="2421938227" to="2421938232" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870604#0" from="249776012" to="249776011" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870604#1" from="2421938141" to="249776012" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870604#2" from="249776018" to="2421938141" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1264.02,609.83 1153.00,617.67 1009.63,656.52"/>
+    <edge id="-233870608#0" from="2421938020" to="2421938057" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870608#1" from="2421937966" to="2421938020" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1190.12,495.41 1121.46,498.52 1063.20,509.73 978.25,534.34"/>
+    <edge id="-233870625" from="2421937838" to="2421937962" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1134.84,429.77 1072.99,432.54 986.79,438.98 937.85,444.62 895.17,463.99 816.29,485.63"/>
+    <edge id="-233870626#0" from="2421937890" to="249776745" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870626#1" from="2421937912" to="2421937890" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870626#2" from="2421937935" to="2421937912" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870626#3" from="2421937995" to="2421937935" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870626#4" from="2421938009" to="2421937995" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870631" from="cluster_2421937765_514435254" to="2421937861" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1103.62,395.45 984.68,405.43 843.20,423.65 798.42,435.46"/>
+    <edge id="-233870637#0" from="2421937809" to="2421937763" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1243.11,416.68 1165.71,416.01 1152.84,382.20"/>
+    <edge id="-233870637#1" from="2421937813" to="2421937809" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870637#2" from="2421937807" to="2421937813" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1371.28,417.72 1320.27,418.59 1292.21,417.90"/>
+    <edge id="-233870641#0" from="2421938191" to="249775975" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870641#1" from="2421938148" to="2421938191" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1270.77,663.75 1200.28,665.01 1025.80,709.12"/>
+    <edge id="-233870644#0" from="2421938184" to="2421938219" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870644#1" from="2421938156" to="2421938184" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1362.74,672.77 1329.16,684.23 1274.39,696.65"/>
+    <edge id="-233870649#0" from="2421937967" to="2421938012" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="973.04,492.55 947.64,490.98 885.62,508.10 833.80,524.24"/>
+    <edge id="-233870649#1" from="249776187" to="2421937967" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1173.13,477.46 1133.54,480.09 1065.63,484.83 973.04,492.55"/>
+    <edge id="-233870654#0" from="2421938253" to="2421938221" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870654#1" from="2421938281" to="2421938253" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-233870654#2" from="1467757951" to="2421938281" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="523.81,857.35 513.16,839.68 507.23,817.46"/>
+    <edge id="-233870654#3" from="2421938326" to="1467757951" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="552.27,897.66 539.58,878.38 523.81,857.35"/>
+    <edge id="-233870654#4" from="1467750625" to="2421938326" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="567.32,931.11 558.05,906.61 552.27,897.66"/>
+    <edge id="-290644042#0" from="2421938123" to="249776018" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#1" from="2421938148" to="2421938123" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#2" from="2421938184" to="2421938148" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#3" from="2421938235" to="2421938184" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#4" from="2421938275" to="2421938235" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#5" from="248809806" to="2421938275" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#6" from="1838656437" to="248809806" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#7" from="249775751" to="1838656437" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644042#8" from="249775749" to="249775751" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-290644043#0" from="2421937717" to="248809057" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-290644043#1" from="cluster_1467794489_248809073" to="2421937717" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="885.91,312.56 870.89,311.19"/>
+    <edge id="-309530579#0" from="3148782119" to="3148782118" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-309530579#1" from="3148782122" to="3148782119" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="594.08,994.78 591.34,1000.72 522.50,1011.17 516.65,984.64"/>
+    <edge id="-309530579#2" from="1467750646" to="3148782122" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-309530579#3" from="3148782119" to="1467750646" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="516.65,984.64 524.75,971.37 531.10,962.61 541.66,959.85 574.20,953.23 587.58,953.94 591.50,955.58 595.64,963.87 597.15,972.25"/>
+    <edge id="-309530580" from="3148782128" to="3148782122" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-335704708#0" from="249775529" to="248776663" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-335704708#1" from="249775749" to="249775529" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1299.36,1088.22 1320.07,1083.85 1424.83,1081.04"/>
+    <edge id="-38042628#0" from="503260974" to="248679644" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="743.35,293.23 735.97,271.30 734.59,267.69 730.24,259.36 722.82,242.70 715.89,226.65 711.86,217.33 703.46,189.79"/>
+    <edge id="-38042628#1" from="248809057" to="503260974" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#10" from="249071028" to="2421937894" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#11" from="2421937962" to="249071028" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#12" from="2421938012" to="2421937962" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="833.80,524.24 829.84,518.98 816.29,485.63"/>
+    <edge id="-38042628#13" from="2421938034" to="2421938012" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="850.54,547.41 847.85,538.98 840.29,532.19 833.80,524.24"/>
+    <edge id="-38042628#14" from="2421938057" to="2421938034" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="858.67,572.02 857.17,568.19 850.54,547.41"/>
+    <edge id="-38042628#15" from="2421938106" to="2421938057" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="867.89,597.51 866.40,591.77 858.67,572.02"/>
+    <edge id="-38042628#16" from="2421938121" to="2421938106" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="873.90,619.38 872.60,615.61 867.89,597.51"/>
+    <edge id="-38042628#17" from="248810257" to="2421938121" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#18" from="249776011" to="248810257" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#19" from="249070833" to="249776011" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="904.08,727.33 898.47,693.24 894.94,678.48"/>
+    <edge id="-38042628#2" from="1467794457" to="248809057" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#20" from="1467757948" to="249070833" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#21" from="1467757965" to="1467757948" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#22" from="249070834" to="1467757965" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#23" from="249070836" to="249070834" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="930.28,1040.25 934.22,932.63 935.71,883.79 935.43,873.61"/>
+    <edge id="-38042628#24" from="249070837" to="249070836" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#25" from="1466350488" to="249070837" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#26" from="249070838" to="1466350488" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#3" from="2421937739" to="1467794457" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#4" from="1467794512" to="2421937739" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#5" from="249776418" to="1467794512" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#6" from="249776852" to="249776418" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#7" from="1467794465" to="249776852" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#8" from="2421937861" to="1467794465" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042628#9" from="2421937894" to="2421937861" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-38042631#0" from="2421937737" to="1836983028" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#1" from="2421937761" to="2421937737" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#10" from="249776018" to="2421938100" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#2" from="2421937809" to="2421937761" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#3" from="1836983059" to="2421937809" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#4" from="2421937916" to="1836983059" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#5" from="2421937956" to="2421937916" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#6" from="2421937995" to="2421937956" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#7" from="249776711" to="2421937995" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#8" from="2421938061" to="249776711" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="-38042631#9" from="2421938100" to="2421938061" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1262.09,598.58 1259.60,584.17 1258.61,578.20"/>
+    <edge id="-38042852#0" from="503975983" to="248808932" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="745.97,1511.05 760.53,1595.83 779.75,1619.23 845.25,1706.67 853.24,1734.80 860.23,1759.42 862.23,1785.80 859.29,1822.78"/>
+    <edge id="-38042852#10" from="1467757963" to="248777037" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="765.10,815.42 768.67,838.16 769.12,854.89"/>
+    <edge id="-38042852#11" from="1467794518" to="1467757963" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="765.77,760.01 764.35,766.59 763.72,792.83 765.10,815.42"/>
+    <edge id="-38042852#12" from="248810256" to="1467794518" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="763.97,679.37 769.63,706.10 770.99,717.22 773.06,731.52 774.06,742.77 769.51,754.68 765.77,760.01"/>
+    <edge id="-38042852#2" from="248777033" to="503975983" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="745.77,1165.80 743.75,1212.87 743.25,1257.81 742.27,1305.83 742.34,1351.21 741.92,1400.26 745.97,1511.05"/>
+    <edge id="-38042852#3" from="1564747827" to="248777033" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#4" from="1466369200" to="1564747827" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#5" from="1466400285" to="1466369200" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#6" from="1467750630" to="1466400285" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#7" from="1467750622" to="1467750630" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#8" from="1467750636" to="1467750622" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-38042852#9" from="248777037" to="1467750636" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-454013118#0" from="1838656440" to="249775749" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-454013118#1" from="248809811" to="1838656440" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-454013118#2" from="248809813" to="248809811" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1300.07,1280.48 1300.17,1241.69 1300.26,1204.74 1300.34,1167.56"/>
+    <edge id="-454013118#3" from="248809814" to="248809813" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="-454013120#0" from="249775640" to="248809814" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1102.05,1230.34 1186.40,1276.10 1204.34,1284.98 1270.42,1324.77"/>
+    <edge id="-454013120#1" from="1564748890" to="249775640" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1021.55,1185.88 1038.70,1191.29 1102.05,1230.34"/>
+    <edge id="-454013120#2" from="249775698" to="1564748890" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="970.95,1185.00 996.51,1185.62 1021.55,1185.88"/>
+    <edge id="-454013120#3" from="249070838" to="249775698" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#4" from="249775705" to="249070838" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#5" from="248810127" to="249775705" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#6" from="248777033" to="248810127" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#7" from="248810158" to="248777033" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#8" from="1836940042" to="248810158" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-454013120#9" from="248808760" to="1836940042" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-92194633" from="cluster_1467794489_248809073" to="248679603" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="904.23,310.77 902.88,266.29 901.48,236.78 894.55,189.33 887.74,159.04"/>
+    <edge id="-92194647#0" from="249776456" to="cluster_1467794489_248809073" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="951.14,308.83 904.23,310.77"/>
+    <edge id="-92194647#1" from="249837943" to="249776456" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-92194647#2" from="1836983028" to="249837943" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-92194647#3" from="2421937707" to="1836983028" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1340.62,287.05 1301.92,295.30 1235.28,299.27"/>
+    <edge id="-92194647#4" from="2421937700" to="2421937707" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-92194647#5" from="2421937693" to="2421937700" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="-92194647#6" from="248680036" to="2421937693" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1512.12,255.36 1465.06,258.04 1428.55,264.55 1408.21,269.49"/>
+    <edge id="133235120#0" from="1466350488" to="1466350486" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235120#1" from="1466350486" to="1564747827" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235120#2" from="1564747827" to="1466350487" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235120#3" from="1466350487" to="1466350485" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235173#0" from="249775749" to="1838656439" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235173#1" from="1838656439" to="303959801" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235173#2" from="303959801" to="1466369202" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235641#0" from="249775752" to="1466400287" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235641#1" from="1466400287" to="249070836" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235641#2" from="249070836" to="248810129" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235641#3" from="248810129" to="1466400285" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133235641#4" from="1466400285" to="1466400299" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337048" from="249775975" to="249776012" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337050" from="1467750612" to="248810130" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337051#0" from="1467750633" to="1467750643" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337051#1" from="1467750643" to="1467750622" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="842.70,929.34 835.36,935.19 787.01,938.69 757.24,936.92"/>
+    <edge id="133337051#2" from="1467750622" to="1467750616" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337051#3" from="1467750616" to="1467750625" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337051#4" from="1467750625" to="1467750645" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="567.32,931.11 545.54,931.86 525.53,935.78 412.59,961.52"/>
+    <edge id="133337051#5" from="1467750645" to="3496616936" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337053#0" from="1467750630" to="1467750632" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337053#1" from="1467750632" to="1467750646" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337474" from="1467757957" to="1467757963" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337475" from="1467757948" to="1467757960" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337478#0" from="1467757965" to="1467757952" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133337478#1" from="1467757952" to="248777037" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="848.53,840.23 806.48,848.83 769.12,854.89"/>
+    <edge id="133337478#2" from="248777037" to="1467757966" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="769.12,854.89 730.65,851.38 682.36,850.45"/>
+    <edge id="133337478#3" from="1467757966" to="1467757951" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="682.36,850.45 566.85,846.96 523.81,857.35"/>
+    <edge id="133337692#0" from="248810165" to="248810166" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="684.23,809.73 672.81,767.47 653.68,700.72"/>
+    <edge id="133337692#1" from="248810166" to="1467794481" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#2" from="1467794481" to="1467794499" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#3" from="1467794499" to="248810168" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#4" from="248810168" to="1467767183" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="620.14,574.08 601.31,579.64 588.18,539.79"/>
+    <edge id="133337692#5" from="1467767183" to="1467794504" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#6" from="1467794504" to="1467794478" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#7" from="1467794478" to="1467794480" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133337692#8" from="1467794480" to="1467794498" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="133338005#0" from="1467767984" to="1467767988" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133338005#1" from="1467767988" to="cluster_1467767990_1467794470" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="727.38,687.83 706.07,589.41"/>
+    <edge id="133339458#0" from="1467794514" to="1467794503" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339458#1" from="1467794503" to="1467794486" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339459#0" from="1467794455" to="1467794473" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339459#1" from="1467794473" to="1467794467" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339460#0" from="1467794481" to="1467794503" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339460#1" from="1467794503" to="1467794511" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="602.06,652.35 563.29,662.50 542.49,666.86 534.40,668.56"/>
+    <edge id="133339461#0" from="1467794466" to="1467794477" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339461#1" from="1467794477" to="1467794506" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339462#0" from="1467794495" to="1467794515" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339462#1" from="1467794515" to="1467767986" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339462#2" from="1467767986" to="cluster_1467767990_1467794470" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="734.73,569.31 703.00,579.94"/>
+    <edge id="133339462#4" from="cluster_1467767990_1467794470" to="1467767188" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="706.07,589.41 660.83,600.03"/>
+    <edge id="133339462#5" from="1467767188" to="1467794499" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339462#6" from="1467794499" to="1467794486" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339462#7" from="1467794486" to="1467794520" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="594.07,621.92 571.07,628.16 533.69,637.04"/>
+    <edge id="133339463" from="1467794518" to="1467794507" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339464" from="248810168" to="1467794472" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339465#0" from="1467794477" to="1467794467" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339465#1" from="1467794467" to="1467794464" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339466#0" from="1467794458" to="1467794493" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339466#1" from="1467794493" to="1467794515" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="804.46,670.53 796.14,640.94 778.60,556.67"/>
+    <edge id="133339468#0" from="1467794457" to="2421937751" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339468#1" from="2421937751" to="1467794519" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339470#0" from="2421937759" to="249776852" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="902.74,378.05 853.04,388.86 788.77,403.98"/>
+    <edge id="133339470#1" from="249776852" to="1467767991" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339470#2" from="1467767991" to="1467794478" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339470#3" from="1467794478" to="1467794506" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339470#4" from="1467794506" to="1467794473" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339471#0" from="1467794465" to="1467794459" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339471#1" from="1467794459" to="1467794504" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339472" from="1467794517" to="cluster_1467794474_1467794479" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="699.60,559.14 809.74,523.78"/>
+    <edge id="133339473#0" from="2421937738" to="249776418" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339473#1" from="249776418" to="1467767989" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="777.96,377.19 696.08,397.85 651.56,413.89"/>
+    <edge id="133339473#2" from="1467767989" to="1467794480" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339474#0" from="1467794512" to="2421937790" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="770.80,359.89 682.99,382.67 606.21,401.76 599.37,401.86"/>
+    <edge id="133339474#1" from="2421937790" to="1467794466" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="599.37,401.86 594.27,401.94 526.23,415.26"/>
+    <edge id="133339474#2" from="1467794466" to="1467794461" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="133339476" from="1467794501" to="cluster_1467794474_1467794479" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="690.74,539.22 805.60,505.86"/>
+    <edge id="133599364" from="1470553314" to="1470553341" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1172.35,891.34 1101.75,895.69 1037.19,901.16"/>
+    <edge id="134795976#0" from="cluster_1467767990_1467794470" to="1467794517" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="703.00,579.94 699.60,559.14"/>
+    <edge id="134795976#1" from="1467794517" to="1467794472" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="134795976#2" from="1467794472" to="1467794501" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="134795976#3" from="1467794501" to="249071026" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="134795976#4" from="249071026" to="1467794459" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="134795976#5" from="1467794459" to="1467767991" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="134795976#6" from="1467767991" to="1467767989" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031164#0" from="249775831" to="1836940037" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031164#1" from="1836940037" to="249775928" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031164#2" from="249775928" to="249775795" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#0" from="1466369202" to="1466369206" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#1" from="1466369206" to="249070837" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#2" from="249070837" to="248810128" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#3" from="248810128" to="1466369200" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#4" from="1466369200" to="1466369213" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="143031545#5" from="1466369213" to="3148782128" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="670.56,1073.24 622.44,1072.71 628.22,1037.63 631.12,998.57 639.75,993.17"/>
+    <edge id="143031545#6" from="3148782128" to="1467750640" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="172845846" from="248810256" to="1467767986" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851197" from="1836983131" to="1836983154" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="439.49,1046.52 299.51,1106.63 206.14,1144.32 144.88,1147.94 12.38,1141.04"/>
+    <edge id="172851199#0" from="1836983067" to="1467794455" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851199#1" from="1467794455" to="1467767183" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851199#2" from="1467767183" to="249071026" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="588.18,539.79 619.90,528.13 682.75,507.25"/>
+    <edge id="172851199#3" from="249071026" to="248810329" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851201#0" from="1836983131" to="1836940042" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="439.49,1046.52 458.19,1050.29 482.52,1088.18 510.53,1155.70"/>
+    <edge id="172851201#1" from="1836940042" to="249070974" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="510.53,1155.70 509.88,1203.69 506.84,1249.67 505.04,1296.81 504.53,1339.72"/>
+    <edge id="172851207" from="249070838" to="248838858" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#0" from="249071028" to="248810329" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#1" from="248810329" to="cluster_1467794474_1467794479" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="792.82,475.79 805.60,505.86"/>
+    <edge id="172851208#10" from="1467750638" to="1467750643" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#11" from="1467750643" to="248810130" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#12" from="248810130" to="248810129" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#13" from="248810129" to="248810128" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#14" from="248810128" to="1466350486" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#15" from="1466350486" to="248810127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#16" from="248810127" to="248810124" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="829.63,1169.12 829.75,1216.53 830.40,1260.37 828.82,1307.13 827.88,1351.74"/>
+    <edge id="172851208#3" from="cluster_1467794474_1467794479" to="1467794495" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="809.74,523.78 811.20,526.73 814.96,542.61"/>
+    <edge id="172851208#4" from="1467794495" to="248810135" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#5" from="248810135" to="1467757949" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#6" from="1467757949" to="1467757960" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#7" from="1467757960" to="1467757957" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#8" from="1467757957" to="1467757952" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851208#9" from="1467757952" to="1467750638" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="172851209" from="1467767186" to="1467767188" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039111" from="1838656434" to="1838656433" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039113#0" from="1838656442" to="1838656441" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039113#1" from="1838656441" to="1838656440" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039113#2" from="1838656440" to="3148770476" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1303.03,1127.58 1358.58,1127.72 1423.64,1127.37"/>
+    <edge id="173039113#3" from="3148770476" to="3148770477" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039114#0" from="249776627" to="1838656436" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039114#1" from="1838656436" to="1838656437" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039115#0" from="249776635" to="303959798" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039115#1" from="303959798" to="1838656432" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039117#0" from="1838656436" to="1838656434" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039117#1" from="1838656434" to="1838656432" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039117#2" from="1838656432" to="249776659" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#0" from="249775953" to="1470553314" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#1" from="1470553314" to="249775831" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#2" from="249775831" to="2421938355" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#3" from="2421938355" to="249775829" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1190.15,967.31 1199.88,1010.25 1208.76,1026.16 1214.96,1041.79"/>
+    <edge id="173039118#4" from="249775829" to="1838656439" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#5" from="1838656439" to="1838656441" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="173039118#6" from="1838656441" to="1838656443" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="212982960" from="2227583873" to="249775705" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="212982968" from="2227583850" to="2227583836" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="212982997#0" from="2227583876" to="248809813" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1518.01,1364.01 1428.24,1361.23 1398.96,1344.52 1374.29,1328.35 1300.07,1280.48"/>
+    <edge id="212982997#1" from="248809813" to="2227583850" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1300.07,1280.48 1268.29,1260.21 1235.52,1242.82 1210.85,1223.39 1195.03,1207.09"/>
+    <edge id="212982997#2" from="2227583850" to="2227583842" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="1195.03,1207.09 1167.52,1200.73 1146.62,1189.53 1135.48,1203.95 1120.30,1195.91"/>
+    <edge id="23058211#0" from="1836983047" to="2421937732" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058211#1" from="2421937732" to="248809057" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#0" from="503975983" to="248810158" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="745.97,1511.05 665.66,1432.82 658.38,1392.13 658.81,1346.15 660.06,1302.38 661.86,1255.90 664.94,1209.80 667.23,1162.60"/>
+    <edge id="23058363#1" from="248810158" to="1466350487" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#10" from="248810165" to="1467794507" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="684.23,809.73 689.30,779.15 691.59,760.45"/>
+    <edge id="23058363#11" from="1467794507" to="1467767186" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="691.59,760.45 696.97,737.63 689.14,692.41"/>
+    <edge id="23058363#2" from="1466350487" to="1466369213" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#3" from="1466369213" to="1466400299" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#4" from="1466400299" to="1467750640" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#5" from="1467750640" to="1467750632" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#6" from="1467750632" to="1467750616" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#7" from="1467750616" to="1467750626" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#8" from="1467750626" to="1467757966" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058363#9" from="1467757966" to="248810165" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#0" from="1836983094" to="2421938221" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#1" from="2421938221" to="1467794514" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="507.58,742.72 509.96,741.99 594.18,713.18 616.91,708.72"/>
+    <edge id="23058373#2" from="1467794514" to="248810166" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="616.91,708.72 624.52,707.77 653.68,700.72"/>
+    <edge id="23058373#3" from="248810166" to="1467767186" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#4" from="1467767186" to="1467767988" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#5" from="1467767988" to="248810256" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#6" from="248810256" to="1467794493" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#7" from="1467794493" to="248810135" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058373#8" from="248810135" to="248810257" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23058382#0" from="1836983081" to="1836983067" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="317.67,691.30 316.63,672.05 321.70,659.00 402.69,617.24 444.17,591.51 459.48,583.25 465.19,578.77"/>
+    <edge id="23058382#1" from="1836983067" to="1467794464" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23058382#2" from="1467794464" to="1467794461" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23058382#3" from="1467794461" to="1467794519" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23058382#4" from="1467794519" to="1836983047" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23058382#5" from="1836983047" to="249080855" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23058382#6" from="249080855" to="1741253817" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="426.42,351.53 422.79,330.15 420.54,319.04 417.09,296.92 454.70,288.48 444.60,234.06"/>
+    <edge id="23074984#0" from="1836983081" to="1836983094" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23074984#1" from="1836983094" to="2421938284" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23074984#2" from="2421938284" to="2421938331" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="364.34,827.96 369.80,841.93 386.89,890.34 391.94,904.51"/>
+    <edge id="23074984#3" from="2421938331" to="1467750627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23074984#4" from="1467750627" to="1467750645" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23074984#5" from="1467750645" to="3148782118" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23074984#6" from="3148782118" to="1836983131" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132899#0" from="249775483" to="304066669" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132899#1" from="304066669" to="248809811" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132899#2" from="248809811" to="1838656443" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132899#3" from="1838656443" to="2227583836" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132899#4" from="2227583836" to="249775597" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#0" from="503976015" to="304066669" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1422.07,1319.86 1422.13,1282.23 1422.31,1240.59 1422.45,1207.03 1422.62,1167.28"/>
+    <edge id="23132905#1" from="304066669" to="3148770476" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#2" from="3148770476" to="249775529" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1423.64,1127.37 1423.72,1124.59 1424.83,1081.04"/>
+    <edge id="23132905#3" from="249775529" to="249776627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#4" from="249776627" to="1838656433" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#5" from="1838656433" to="303959798" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#6" from="303959798" to="249776646" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#7" from="249776646" to="303959800" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#8" from="303959800" to="2421938227" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132905#9" from="2421938227" to="2421938232" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1416.42,757.39 1410.44,693.84 1325.60,731.58 1326.72,761.77"/>
+    <edge id="23132922#0" from="1836940037" to="2421938357" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#1" from="2421938357" to="249775801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#2" from="249775801" to="303959801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#3" from="303959801" to="1838656442" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#4" from="1838656442" to="249775597" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#5" from="249775597" to="2227583842" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#6" from="2227583842" to="249775640" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132922#7" from="249775640" to="459485487" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1102.05,1230.34 1074.68,1273.73 1070.07,1371.85 1061.32,1492.37 1058.47,1609.01"/>
+    <edge id="23132930#0" from="249775697" to="249775698" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132930#1" from="249775698" to="1466369206" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132930#2" from="1466369206" to="1466400287" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132930#3" from="1466400287" to="249775795" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132930#4" from="249775795" to="249775950" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132930#5" from="249775950" to="249775989" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132942#0" from="249775751" to="249775829" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132942#1" from="249775829" to="249775801" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132942#2" from="249775801" to="249775752" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132953#0" from="249775675" to="1564748890" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="23132953#1" from="1564748890" to="1466369202" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="23132953#2" from="1466369202" to="249775752" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="23132957#0" from="249776645" to="514436333" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#1" from="514436333" to="249776646" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1489.33,853.52 1473.39,857.32 1427.29,867.30"/>
+    <edge id="23132957#10" from="1467750636" to="1467750626" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="761.58,896.55 728.03,892.87 680.88,887.54"/>
+    <edge id="23132957#11" from="1467750626" to="2421938326" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="680.88,887.54 593.27,889.14 552.27,897.66"/>
+    <edge id="23132957#12" from="2421938326" to="1467750627" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="552.27,897.66 484.36,909.94 401.67,927.42"/>
+    <edge id="23132957#13" from="1467750627" to="1467750641" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="401.67,927.42 318.08,961.89 261.36,987.23 220.05,1012.12"/>
+    <edge id="23132957#2" from="249776646" to="249776659" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#3" from="249776659" to="248809806" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#4" from="248809806" to="249775953" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1290.32,868.10 1263.13,857.36 1242.92,854.71 1199.27,865.49 1183.59,864.71 1170.85,851.88"/>
+    <edge id="23132957#5" from="249775953" to="2421938297" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1170.85,851.88 1141.30,847.35 1057.39,856.67"/>
+    <edge id="23132957#6" from="2421938297" to="249775950" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#7" from="249775950" to="249070834" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#8" from="249070834" to="1467750638" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132957#9" from="1467750638" to="1467750636" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132965#0" from="249775975" to="249775989" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132965#1" from="249775989" to="249070833" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132965#2" from="249070833" to="1467757949" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="23132974#0" from="249776018" to="2421938050" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#1" from="2421938050" to="2421938009" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#10" from="cluster_2421937765_514435254" to="514435257" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1093.91,381.88 1071.72,345.91"/>
+    <edge id="23132974#11" from="514435257" to="249837943" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#2" from="2421938009" to="514435248" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#3" from="514435248" to="2421937986" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#4" from="2421937986" to="2421937966" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#5" from="2421937966" to="2421937947" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#6" from="2421937947" to="249776187" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#7" from="249776187" to="2421937838" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="23132974#8" from="2421937838" to="cluster_2421937765_514435254" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1134.84,429.77 1103.62,395.45"/>
+    <edge id="23139605" from="514435340" to="249776456" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1204.44,1.35 1051.22,0.00 1034.43,2.99 1008.10,12.45 977.91,23.36 960.15,30.92 945.80,49.57 944.29,88.15 954.04,250.81 951.14,308.83"/>
+    <edge id="233870398#0" from="2421937967" to="2421937996" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#1" from="2421937996" to="2421938020" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#10" from="2421938191" to="2421938219" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#11" from="2421938219" to="3683839896" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#12" from="3683839896" to="2421938297" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#2" from="2421938020" to="2421938047" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#3" from="2421938047" to="cluster_2421938068_2421938098" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="984.90,557.98 989.18,578.16"/>
+    <edge id="233870398#5" from="cluster_2421938068_2421938098" to="cluster_2421938110_2421938127" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="991.91,591.06 998.53,611.47"/>
+    <edge id="233870398#7" from="cluster_2421938110_2421938127" to="2421938141" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1003.76,629.63 1009.63,656.52"/>
+    <edge id="233870398#8" from="2421938141" to="2421938172" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870398#9" from="2421938172" to="2421938191" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#0" from="2421937707" to="2421937734" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#1" from="2421937734" to="2421937757" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#10" from="2421938087" to="514436333" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1409.24,590.97 1420.60,643.46 1461.73,757.18 1469.87,780.90 1480.93,813.17 1489.33,853.52"/>
+    <edge id="233870399#2" from="2421937757" to="2421937807" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#3" from="2421937807" to="cluster_2421937850_2421937873" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1371.28,417.72 1375.75,436.92"/>
+    <edge id="233870399#5" from="cluster_2421937850_2421937873" to="2421937935" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1377.94,444.69 1384.17,474.98"/>
+    <edge id="233870399#6" from="2421937935" to="2421937983" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#7" from="2421937983" to="2421938015" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#8" from="2421938015" to="2421938043" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870399#9" from="2421938043" to="2421938087" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870401#0" from="503260996" to="249080855" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="5.33,160.29 0.00,167.09 49.00,233.27 80.93,262.59 94.38,271.49 138.24,300.30 153.60,310.67 207.89,351.56 242.57,373.58 261.93,374.60 288.46,375.98 316.69,377.32 426.42,351.53"/>
+    <edge id="233870401#1" from="249080855" to="503260974" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="426.42,351.53 505.01,337.20 670.40,309.18 743.35,293.23"/>
+    <edge id="233870404" from="2421937912" to="2421937700" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870422" from="2421938121" to="cluster_2421938068_2421938098" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="873.90,619.38 991.91,591.06"/>
+    <edge id="233870424" from="2421938331" to="2421938281" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="391.94,904.51 442.35,888.78 428.46,840.23 507.23,817.46"/>
+    <edge id="233870425" from="2421938034" to="2421937996" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870446" from="2421938123" to="2421938087" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870449" from="2421938172" to="2421938134" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870466" from="249776711" to="2421937983" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870468" from="cluster_2421938110_2421938127" to="248810257" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1003.76,629.63 886.98,654.48"/>
+    <edge id="233870470" from="2421938061" to="2421938015" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870478" from="2421938100" to="2421938043" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870484#0" from="514435257" to="2421937737" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870484#1" from="2421937737" to="2421937734" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870492#0" from="2421937986" to="2421937956" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1200.56,507.43 1201.11,504.15 1249.03,488.45"/>
+    <edge id="233870492#1" from="2421937956" to="cluster_2421937850_2421937873" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1249.03,488.45 1377.94,444.69"/>
+    <edge id="233870493#0" from="2421938276" to="2421938275" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870493#1" from="2421938275" to="303959800" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870495#0" from="249775752" to="2421938362" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870495#1" from="2421938362" to="249775928" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870501#0" from="2421937949" to="2421937894" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="731.28,479.11 756.46,468.48 780.08,458.40 804.79,452.95"/>
+    <edge id="233870501#1" from="2421937894" to="2421937882" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870503#0" from="2421938355" to="2421938357" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870503#1" from="2421938357" to="2421938362" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870505" from="2421938281" to="2421938331" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="507.23,817.46 428.46,840.23 442.35,888.78 391.94,904.51"/>
+    <edge id="233870512" from="2421938284" to="2421938253" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="364.34,827.96 452.63,800.53 503.80,784.36"/>
+    <edge id="233870519" from="2421937739" to="2421937717" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="767.08,347.93 859.84,325.27 870.89,311.19"/>
+    <edge id="233870525" from="cluster_2421938110_2421938127" to="2421938050" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="998.53,611.47 1101.32,586.13 1240.32,568.95"/>
+    <edge id="233870530" from="2421938232" to="2421938227" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1326.72,761.77 1325.60,731.58 1410.44,693.84 1416.42,757.39"/>
+    <edge id="233870537#0" from="2421938140" to="2421937890" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870537#1" from="2421937890" to="2421937693" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870542#0" from="2421937790" to="2421937751" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870542#1" from="2421937751" to="2421937732" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870551#0" from="cluster_1467794489_248809073" to="2421937738" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="885.91,312.56 894.48,348.96"/>
+    <edge id="233870551#1" from="2421937738" to="2421937759" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870563#0" from="2421937845" to="1836983059" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1165.53,433.92 1210.20,436.35 1244.79,444.35"/>
+    <edge id="233870563#1" from="1836983059" to="2421937813" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1244.79,444.35 1292.65,442.43 1292.21,417.90"/>
+    <edge id="233870565#0" from="2421937947" to="2421937916" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870565#1" from="2421937916" to="cluster_2421937850_2421937873" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1246.66,466.38 1311.65,448.47 1375.75,436.92"/>
+    <edge id="233870567" from="cluster_2421938068_2421938098" to="514435248" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="989.18,578.16 1085.14,552.57 1157.68,535.14 1211.62,519.47"/>
+    <edge id="233870588#0" from="2421938106" to="2421938047" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870588#1" from="2421938047" to="2421938003" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="984.90,557.98 1082.46,529.49 1127.43,518.39"/>
+    <edge id="233870591#0" from="cluster_2421937765_514435254" to="2421937763" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1093.91,381.88 1152.84,382.20"/>
+    <edge id="233870591#1" from="2421937763" to="2421937761" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870591#2" from="2421937761" to="2421937757" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870597#0" from="3683839896" to="2421938235" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1045.70,793.55 1212.03,770.75 1282.49,764.52"/>
+    <edge id="233870597#1" from="2421938235" to="2421938232" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870597#2" from="2421938232" to="2421938227" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870604#0" from="249776011" to="249776012" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870604#1" from="249776012" to="2421938141" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870604#2" from="2421938141" to="249776018" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1009.63,656.52 1153.00,617.67 1264.02,609.83"/>
+    <edge id="233870608#0" from="2421938057" to="2421938020" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870608#1" from="2421938020" to="2421937966" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="978.25,534.34 1063.20,509.73 1121.46,498.52 1190.12,495.41"/>
+    <edge id="233870625" from="2421937962" to="2421937838" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="816.29,485.63 895.17,463.99 937.85,444.62 986.79,438.98 1072.99,432.54 1134.84,429.77"/>
+    <edge id="233870626#0" from="249776745" to="2421937890" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870626#1" from="2421937890" to="2421937912" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870626#2" from="2421937912" to="2421937935" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870626#3" from="2421937935" to="2421937995" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870626#4" from="2421937995" to="2421938009" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870631" from="2421937861" to="cluster_2421937765_514435254" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="798.42,435.46 843.20,423.65 984.68,405.43 1103.62,395.45"/>
+    <edge id="233870637#0" from="2421937763" to="2421937809" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1152.84,382.20 1165.71,416.01 1243.11,416.68"/>
+    <edge id="233870637#1" from="2421937809" to="2421937813" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870637#2" from="2421937813" to="2421937807" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1292.21,417.90 1320.27,418.59 1371.28,417.72"/>
+    <edge id="233870641#0" from="249775975" to="2421938191" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870641#1" from="2421938191" to="2421938148" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1025.80,709.12 1200.28,665.01 1270.77,663.75"/>
+    <edge id="233870644#0" from="2421938219" to="2421938184" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870644#1" from="2421938184" to="2421938156" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1274.39,696.65 1329.16,684.23 1362.74,672.77"/>
+    <edge id="233870649#0" from="2421938012" to="2421937967" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="833.80,524.24 885.62,508.10 947.64,490.98 973.04,492.55"/>
+    <edge id="233870649#1" from="2421937967" to="249776187" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="973.04,492.55 1065.63,484.83 1133.54,480.09 1173.13,477.46"/>
+    <edge id="233870654#0" from="2421938221" to="2421938253" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870654#1" from="2421938253" to="2421938281" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="233870654#2" from="2421938281" to="1467757951" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="507.23,817.46 513.16,839.68 523.81,857.35"/>
+    <edge id="233870654#3" from="1467757951" to="2421938326" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="523.81,857.35 539.58,878.38 552.27,897.66"/>
+    <edge id="233870654#4" from="2421938326" to="1467750625" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="552.27,897.66 558.05,906.61 567.32,931.11"/>
+    <edge id="290644042#0" from="249776018" to="2421938123" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#1" from="2421938123" to="2421938148" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#2" from="2421938148" to="2421938184" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#3" from="2421938184" to="2421938235" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#4" from="2421938235" to="2421938275" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#5" from="2421938275" to="248809806" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#6" from="248809806" to="1838656437" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#7" from="1838656437" to="249775751" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644042#8" from="249775751" to="249775749" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="290644043#0" from="248809057" to="2421937717" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="290644043#1" from="2421937717" to="cluster_1467794489_248809073" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="870.89,311.19 885.91,312.56"/>
+    <edge id="309530579#0" from="3148782118" to="3148782119" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="309530579#1" from="3148782119" to="3148782122" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="516.65,984.64 522.50,1011.17 591.34,1000.72 594.08,994.78"/>
+    <edge id="309530579#2" from="3148782122" to="1467750646" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="309530579#3" from="1467750646" to="3148782119" priority="4" type="highway.residential" numLanes="1" speed="13.89" shape="597.15,972.25 595.64,963.87 591.50,955.58 587.58,953.94 574.20,953.23 541.66,959.85 531.10,962.61 524.75,971.37 516.65,984.64"/>
+    <edge id="309530580" from="3148782122" to="3148782128" priority="4" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="335704708#0" from="248776663" to="249775529" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="335704708#1" from="249775529" to="249775749" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1424.83,1081.04 1320.07,1083.85 1299.36,1088.22"/>
+    <edge id="38042628#0" from="248679644" to="503260974" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="703.46,189.79 711.86,217.33 715.89,226.65 722.82,242.70 730.24,259.36 734.59,267.69 735.97,271.30 743.35,293.23"/>
+    <edge id="38042628#1" from="503260974" to="248809057" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#10" from="2421937894" to="249071028" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#11" from="249071028" to="2421937962" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#12" from="2421937962" to="2421938012" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="816.29,485.63 829.84,518.98 833.80,524.24"/>
+    <edge id="38042628#13" from="2421938012" to="2421938034" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="833.80,524.24 840.29,532.19 847.85,538.98 850.54,547.41"/>
+    <edge id="38042628#14" from="2421938034" to="2421938057" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="850.54,547.41 857.17,568.19 858.67,572.02"/>
+    <edge id="38042628#15" from="2421938057" to="2421938106" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="858.67,572.02 866.40,591.77 867.89,597.51"/>
+    <edge id="38042628#16" from="2421938106" to="2421938121" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="867.89,597.51 872.60,615.61 873.90,619.38"/>
+    <edge id="38042628#17" from="2421938121" to="248810257" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#18" from="248810257" to="249776011" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#19" from="249776011" to="249070833" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="894.94,678.48 898.47,693.24 904.08,727.33"/>
+    <edge id="38042628#2" from="248809057" to="1467794457" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#20" from="249070833" to="1467757948" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#21" from="1467757948" to="1467757965" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#22" from="1467757965" to="249070834" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#23" from="249070834" to="249070836" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="935.43,873.61 935.71,883.79 934.22,932.63 930.28,1040.25"/>
+    <edge id="38042628#24" from="249070836" to="249070837" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#25" from="249070837" to="1466350488" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#26" from="1466350488" to="249070838" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#3" from="1467794457" to="2421937739" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#4" from="2421937739" to="1467794512" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#5" from="1467794512" to="249776418" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#6" from="249776418" to="249776852" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#7" from="249776852" to="1467794465" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#8" from="1467794465" to="2421937861" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042628#9" from="2421937861" to="2421937894" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="38042631#0" from="1836983028" to="2421937737" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#1" from="2421937737" to="2421937761" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#10" from="2421938100" to="249776018" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#2" from="2421937761" to="2421937809" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#3" from="2421937809" to="1836983059" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#4" from="1836983059" to="2421937916" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#5" from="2421937916" to="2421937956" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#6" from="2421937956" to="2421937995" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#7" from="2421937995" to="249776711" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#8" from="249776711" to="2421938061" priority="5" type="highway.unclassified" numLanes="1" speed="22.22"/>
+    <edge id="38042631#9" from="2421938061" to="2421938100" priority="5" type="highway.unclassified" numLanes="1" speed="22.22" shape="1258.61,578.20 1259.60,584.17 1262.09,598.58"/>
+    <edge id="38042852#0" from="248808932" to="503975983" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="859.29,1822.78 862.23,1785.80 860.23,1759.42 853.24,1734.80 845.25,1706.67 779.75,1619.23 760.53,1595.83 745.97,1511.05"/>
+    <edge id="38042852#1" from="503975983" to="248777033" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="745.97,1511.05 741.92,1400.26 742.34,1351.21 742.27,1305.83 743.25,1257.81 743.75,1212.87 745.77,1165.80"/>
+    <edge id="38042852#10" from="248777037" to="1467757963" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="769.12,854.89 768.67,838.16 765.10,815.42"/>
+    <edge id="38042852#11" from="1467757963" to="1467794518" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="765.10,815.42 763.72,792.83 764.35,766.59 765.77,760.01"/>
+    <edge id="38042852#12" from="1467794518" to="248810256" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="765.77,760.01 769.51,754.68 774.06,742.77 773.06,731.52 770.99,717.22 769.63,706.10 763.97,679.37"/>
+    <edge id="38042852#3" from="248777033" to="1564747827" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#4" from="1564747827" to="1466369200" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#5" from="1466369200" to="1466400285" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#6" from="1466400285" to="1467750630" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#7" from="1467750630" to="1467750622" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#8" from="1467750622" to="1467750636" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="38042852#9" from="1467750636" to="248777037" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="454013118#0" from="249775749" to="1838656440" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="454013118#1" from="1838656440" to="248809811" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="454013118#2" from="248809811" to="248809813" priority="6" type="highway.tertiary" numLanes="1" speed="22.22" shape="1300.34,1167.56 1300.26,1204.74 1300.17,1241.69 1300.07,1280.48"/>
+    <edge id="454013118#3" from="248809813" to="248809814" priority="6" type="highway.tertiary" numLanes="1" speed="22.22"/>
+    <edge id="454013120#0" from="248809814" to="249775640" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1270.42,1324.77 1204.34,1284.98 1186.40,1276.10 1102.05,1230.34"/>
+    <edge id="454013120#1" from="249775640" to="1564748890" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1102.05,1230.34 1038.70,1191.29 1021.55,1185.88"/>
+    <edge id="454013120#2" from="1564748890" to="249775698" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1021.55,1185.88 996.51,1185.62 970.95,1185.00"/>
+    <edge id="454013120#3" from="249775698" to="249070838" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#4" from="249070838" to="249775705" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#5" from="249775705" to="248810127" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#6" from="248810127" to="248777033" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#7" from="248777033" to="248810158" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#8" from="248810158" to="1836940042" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="454013120#9" from="1836940042" to="248808760" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="92194633" from="248679603" to="cluster_1467794489_248809073" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="887.74,159.04 894.55,189.33 901.48,236.78 902.88,266.29 904.23,310.77"/>
+    <edge id="92194647#0" from="cluster_1467794489_248809073" to="249776456" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="904.23,310.77 951.14,308.83"/>
+    <edge id="92194647#1" from="249776456" to="249837943" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="92194647#2" from="249837943" to="1836983028" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="92194647#3" from="1836983028" to="2421937707" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1235.28,299.27 1301.92,295.30 1340.62,287.05"/>
+    <edge id="92194647#4" from="2421937707" to="2421937700" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="92194647#5" from="2421937700" to="2421937693" priority="7" type="highway.secondary" numLanes="2" speed="27.78"/>
+    <edge id="92194647#6" from="2421937693" to="248680036" priority="7" type="highway.secondary" numLanes="2" speed="27.78" shape="1408.21,269.49 1428.55,264.55 1465.06,258.04 1512.12,255.36"/>
+</edges>

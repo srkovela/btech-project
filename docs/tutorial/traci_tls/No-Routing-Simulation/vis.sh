@@ -1,0 +1,1 @@
+python ../../../../tools/visualization/plot_summary.py -i summary.xml  -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1 
